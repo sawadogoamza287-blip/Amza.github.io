@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amza-Tech | Boutique iPhone Officielle</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* PARAMÈTRES DE CONFIGURATION FACILE */
+        :root {
+            --couleur-fond: #000000;      /* Change ici pour le fond */
+            --couleur-texte: #ffffff;     /* Change ici pour le texte */
+            --couleur-accent: #25D366;    /* Couleur WhatsApp */
+            --couleur-prix: #FFD700;      /* Couleur Or pour les prix */
+        }
+
+        body { background-color: var(--couleur-fond); color: var(--couleur-texte); }
+        .text-accent { color: var(--couleur-accent); }
+        .price-tag { color: var(--couleur-prix); font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <header class="p-4 border-b border-gray-800 flex justify-between items-center sticky top-0 bg-black z-50">
+        <h1 class="text-2xl font-bold tracking-tighter">AMZA<span class="text-gray-500">-TECH</span></h1>
+        <div class="text-right">
+            <p class="text-xs">Contact Commercial</p>
+            <a href="tel:+22653588259" class="font-bold">+226 53 58 82 59</a>
+        </div>
+    </header>
+
+    <section class="relative h-[60vh] bg-cover bg-center flex items-end p-6" 
+             style="background-image: url('TON_IMAGE_ICI.jpg');"> <div class="bg-black/60 p-6 rounded-xl backdrop-blur-sm w-full">
+            <h2 class="text-3xl font-extrabold">Puissance Apple au Burkina</h2>
+            <p class="text-gray-300">Neufs & Occasions Certifiées USA</p>
+            <a href="https://wa.me/22657542885" class="mt-4 inline-block bg-green-500 text-white px-6 py-3 rounded-full font-bold">
+                Commander via WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <section class="p-6">
+        <h3 class="text-xl font-bold mb-4 border-l-4 border-blue-500 pl-2">🇺🇸 Modèles USA (Sélection)</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="bg-gray-900 p-4 rounded-lg flex justify-between items-center">
+                <div>
+                    <p class="font-medium">iPhone 13 Pro Max (256GB)</p>
+                    <p class="price-tag text-lg">305 000 F</p>
+                </div>
+                <img src="photo-iphone.jpg" alt="iPhone" class="w-16 h-16 rounded shadow-lg"> </div>
+            <div class="bg-gray-900 p-4 rounded-lg flex justify-between items-center">
+                <div>
+                    <p class="font-medium">iPhone 15 Pro Max (256GB)</p>
+                    <p class="price-tag text-lg">485 000 F</p>
+                </div>
+                <img src="photo-iphone.jpg" alt="iPhone" class="w-16 h-16 rounded shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <section class="p-6 bg-zinc-900">
+        <h3 class="text-xl font-bold mb-4 border-l-4 border-green-500 pl-2">✨ Nouveautés Scellées</h3>
+        <div class="space-y-3">
+            <div class="flex justify-between border-b border-gray-800 pb-2">
+                <span>iPhone 16 Pro Max (256GB)</span>
+                <span class="font-bold">700 000 F</span>
+            </div>
+            <div class="flex justify-between border-b border-gray-800 pb-2">
+                <span>iPhone 16 (128GB)</span>
+                <span class="font-bold">480 000 F</span>
+            </div>
+            <div class="flex justify-between border-b border-gray-800 pb-2">
+                <span>iPhone XR Design 16 Pro</span>
+                <span class="font-bold">135 000 F</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-10 text-center text-gray-500 text-sm">
+        <p>Amza-Tech - Ouagadougou, Burkina Faso</p>
+        <p class="mt-2">WhatsApp: +226 57 54 28 85</p>
+    </footer>
+
+</body>
+</html>
